@@ -1,11 +1,11 @@
 body{
-    background-color:rgb(11, 11, 90);
+    background-color:rgb(189, 189, 190);
     color:black;
     font-family: Arial, sans-serif;
 }
 
 header{
-    background-color:#081a5f;
+    background-color:#acaeb6;
     color:#000000;
     text-align:center;
     padding:30px;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    color:#2d3e6b;
+    color:#dcdee2;
 }
 
 p {
