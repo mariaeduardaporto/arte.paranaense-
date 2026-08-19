@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color:#aa0000;
+    background-color:#ffffff;
     color:#000000;
     text-align:center;
     padding:30px;
@@ -29,9 +29,9 @@ nav {
 }
 
 nav a  {
-    color: rgb(138, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: rgb(146, 2, 2);
+    background-color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -52,12 +52,12 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(93, 112, 129);
+    color: rgb(0, 0, 0);
     margin-top: 8px;
 }
 
 card {
-    background-color: rgb(150, 0, 0);
+    background-color: rgb(255, 245, 245);
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #790000;
@@ -68,8 +68,8 @@ card h3 {
     margin-top: 0;
 }
 footer {
-    background-color: #8d0000;
-    color: rgb(129, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 248, 248);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
