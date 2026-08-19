@@ -7,7 +7,7 @@ body{
 
 header{
     background-color:#ffffff;
-    color:#000000;
+    color:#0462bb;
     text-align:center;
     padding:30px;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color:#a10000;
+    color:#000000;
 }
 
 p {
@@ -29,9 +29,9 @@ nav {
 }
 
 nav a  {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(163, 8, 8);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -39,7 +39,7 @@ nav a  {
 }
 
 nav a:hover {
-    background-color: #880000;
+    background-color: #000000;
 }
 img {
     width: 100%;
@@ -52,15 +52,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(0, 0, 0);
+    color: rgb(251, 253, 255);
     margin-top: 8px;
 }
 
 card {
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(0, 67, 145);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #790000;
+    border-left: 6px solid #ffffff;
     border-radius: 10px;
 }
 
@@ -69,7 +69,7 @@ card h3 {
 }
 footer {
     background-color: #000000;
-    color: rgb(255, 248, 248);
+    color: rgb(150, 3, 3);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
