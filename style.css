@@ -1,12 +1,12 @@
 body{
-    background-color:rgb(254, 254, 255);
+    background-color:rgb(176, 176, 243);
     color:black;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header{
-    background-color:#ffffff;
+    background-color:#dd2727;
     color:#000000;
     text-align:center;
     padding:30px;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color:#dcdee2;
+    color:#97a4c0;
 }
 
 p {
@@ -39,7 +39,7 @@ nav a  {
 }
 
 nav a:hover {
-    background-color: #dcdee2;
+    background-color: #848ea3;
 }
 img {
     width: 100%;
@@ -52,15 +52,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: aliceblue;
+    color: rgb(93, 112, 129);
     margin-top: 8px;
 }
 
 card {
-    background-color: antiquewhite;
+    background-color: rgb(194, 180, 162);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #ffffff;
+    border-left: 6px solid #d4a7a7;
     border-radius: 10px;
 }
 
@@ -68,8 +68,8 @@ card h3 {
     margin-top: 0;
 }
 footer {
-    background-color: #ffffff;
-    color: blanchedalmond;
+    background-color: #c78c8c;
+    color: rgb(218, 195, 161);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
