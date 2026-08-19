@@ -1,12 +1,12 @@
 body{
-    background-color:rgb(176, 176, 243);
+    background-color:rgb(212, 0, 0);
     color:black;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header{
-    background-color:#dd2727;
+    background-color:#aa0000;
     color:#000000;
     text-align:center;
     padding:30px;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color:#97a4c0;
+    color:#a10000;
 }
 
 p {
@@ -29,9 +29,9 @@ nav {
 }
 
 nav a  {
-    color: white;
+    color: rgb(138, 0, 0);
     text-decoration: none;
-    background-color: azure;
+    background-color: rgb(146, 2, 2);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -39,7 +39,7 @@ nav a  {
 }
 
 nav a:hover {
-    background-color: #848ea3;
+    background-color: #880000;
 }
 img {
     width: 100%;
@@ -57,10 +57,10 @@ figcaption {
 }
 
 card {
-    background-color: rgb(194, 180, 162);
+    background-color: rgb(150, 0, 0);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #d4a7a7;
+    border-left: 6px solid #790000;
     border-radius: 10px;
 }
 
@@ -68,8 +68,8 @@ card h3 {
     margin-top: 0;
 }
 footer {
-    background-color: #c78c8c;
-    color: rgb(218, 195, 161);
+    background-color: #8d0000;
+    color: rgb(129, 0, 0);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
