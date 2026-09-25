@@ -74,4 +74,22 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+button {
+    background-color: #88b6e0;
+    color: aliceblue;
+    border:azure;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(162, 183, 223);
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
 
