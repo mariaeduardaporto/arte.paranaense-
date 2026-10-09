@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(40, 100, 139);
+    background-color: var(--cor-hover);
 }
 
 .curtir {
