@@ -1,18 +1,17 @@
 :root{
-    --cor-fundo:var(--cor-fundo)
-    --cor-texto:var(--cor-fundo)
-    --cor-principal:var(--cor-fundo)
-    --cor-secunaria:var(--cor-fundo)
-    --cor-hover:var(--cor-fundo)
-    --cor-superficie:var(--cor-fundo)
-    --cor-card:var(--cor-fundo)
-    --cor-legenda:var(--cor-fundo)
-    --cor-clara:var(--cor-fundo)
-    --cor-rodape:var(--cor-fundo)
+    --cor-fundo:rgba(45, 15, 218, 0.863);
+    --cor-texto:black;
+    --cor-secunaria:#ffffff;
+    --cor-hover:#7eadd6;
+    --cor-superficie:#dfedf7;
+    --cor-card:rgb(255, 254, 254);
+    --cor-legenda:rgba(178, 185, 187, 0.815);
+    --cor-clara:#000000;
+    --cor-rodape:rgb(251, 253, 255);
 
 }
 body{
-    background-color:rgba(135, 211, 235, 0.863);
+    background-color:rgba(45, 15, 218, 0.863);
     color:black;
     font-family: Arial, sans-serif;
     margin: 0;
