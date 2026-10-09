@@ -42,9 +42,9 @@ nav {
 }
 
 nav a  {
-    color: rgb(5, 33, 110);
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: rgba(178, 185, 187, 0.815);
+    background-color: var(--cor-secunaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -52,7 +52,7 @@ nav a  {
 }
 
 nav a:hover {
-    background-color: #000000;
+    background-color: var(--cor-hover);
 }
 img {
     width: 100%;
@@ -62,18 +62,29 @@ img {
     border-radius: 12px;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: var(--cor-superficie);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(9, 51, 94);
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: rgb(216, 219, 223);
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #1350c2;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -81,16 +92,16 @@ figcaption {
     margin-top: 0;
 }
 footer {
-    background-color: #c9bdbd;
-    color: rgba(40, 183, 219, 0.918);
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color: #bbc9d6;
-    color: rgb(139, 165, 189);
-    border:rgb(110, 148, 148);
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
