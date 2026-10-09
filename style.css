@@ -1,3 +1,4 @@
+:root{
 body{
     background-color:rgba(135, 211, 235, 0.863);
     color:black;
@@ -92,4 +93,5 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
+
 
