@@ -1,24 +1,24 @@
 :root{
-    --cor-fundo:rgba(45, 15, 218, 0.863);
+    --cor-fundo:rgba(41, 109, 173, 0.89);
     --cor-texto:black;
     --cor-secunaria:#ffffff;
     --cor-hover:#7eadd6;
-    --cor-superficie:#dfedf7;
+    --cor-superficie:#529bcf;
     --cor-card:rgb(255, 254, 254);
-    --cor-legenda:rgba(178, 185, 187, 0.815);
+    --cor-legenda:rgba(71, 181, 211, 0.815);
     --cor-clara:#000000;
     --cor-rodape:rgb(251, 253, 255);
 
 }
 body{
-    background-color:rgba(45, 15, 218, 0.863);
+    background-color:rgba(15, 120, 218, 0.863);
     color:black;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header{
-    background-color:#ffffff;
+    background-color:#52a5c5;
     color:#7eadd6;
     text-align:center;
     padding:30px;
@@ -41,7 +41,7 @@ nav {
 }
 
 nav a  {
-    color: rgb(255, 254, 254);
+    color: rgb(5, 33, 110);
     text-decoration: none;
     background-color: rgba(178, 185, 187, 0.815);
     padding: 10px 15px;
@@ -64,7 +64,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(251, 253, 255);
+    color: rgb(9, 51, 94);
     margin-top: 8px;
 }
 
@@ -72,7 +72,7 @@ figcaption {
     background-color: rgb(216, 219, 223);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #ffffff;
+    border-left: 6px solid #1350c2;
     border-radius: 10px;
 }
 
@@ -81,7 +81,7 @@ figcaption {
 }
 footer {
     background-color: #c9bdbd;
-    color: rgba(194, 202, 204, 0.918);
+    color: rgba(40, 183, 219, 0.918);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
