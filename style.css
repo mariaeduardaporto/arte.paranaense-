@@ -1,4 +1,16 @@
 :root{
+    --cor-fundo:var(--cor-fundo)
+    --cor-texto:var(--cor-fundo)
+    --cor-principal:var(--cor-fundo)
+    --cor-secunaria:var(--cor-fundo)
+    --cor-hover:var(--cor-fundo)
+    --cor-superficie:var(--cor-fundo)
+    --cor-card:var(--cor-fundo)
+    --cor-legenda:var(--cor-fundo)
+    --cor-clara:var(--cor-fundo)
+    --cor-rodape:var(--cor-fundo)
+
+}
 body{
     background-color:rgba(135, 211, 235, 0.863);
     color:black;
@@ -8,7 +20,7 @@ body{
 
 header{
     background-color:#ffffff;
-    color:#cfd9e2;
+    color:#7eadd6;
     text-align:center;
     padding:30px;
 }
