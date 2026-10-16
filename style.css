@@ -1,32 +1,33 @@
-:root{
-    --cor-fundo:rgba(28, 69, 107, 0.89);
-    --cor-texto:black;
-    --cor-principal:rgba(78, 133, 150, 0.815);
-    --cor-secunaria:#ffffff;
-    --cor-hover:#7eadd6;
-    --cor-superficie:#529bcf;
-    --cor-card:rgb(255, 254, 254);
-    --cor-legenda:rgba(71, 181, 211, 0.815);
-    --cor-clara:#000000;
-    --cor-rodape:rgb(251, 253, 255);
+:root {
+    --cor-fundo: rgba(28, 69, 107, 0.89);
+    --cor-texto: black;
+    --cor-principal: rgba(78, 133, 150, 0.815);
+    --cor-secunaria: #ffffff;
+    --cor-hover: #7eadd6;
+    --cor-superficie: #529bcf;
+    --cor-card: rgb(255, 254, 254);
+    --cor-legenda: rgba(71, 181, 211, 0.815);
+    --cor-clara: #000000;
+    --cor-rodape: rgb(251, 253, 255);
 
 }
-body{
+
+body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-header{
+header {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
-    text-align:center;
-    padding:30px;
+    text-align: center;
+    padding: 30px;
 }
 
 h1 {
-    font-size:36px;
+    font-size: 36px;
 }
 
 h2 {
@@ -34,14 +35,15 @@ h2 {
 }
 
 p {
-    font-size:18px;
-    line-height:1.6;
+    font-size: 18px;
+    line-height: 1.6;
 }
+
 nav {
     margin-top: 20px;
 }
 
-nav a  {
+nav a {
     color: var(--cor-clara);
     text-decoration: none;
     background-color: var(--cor-secunaria);
@@ -54,6 +56,7 @@ nav a  {
 nav a:hover {
     background-color: var(--cor-hover);
 }
+
 img {
     width: 100%;
     max-width: 600px;
@@ -72,6 +75,7 @@ section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
+}
 
 figcaption {
     text-align: center;
@@ -91,6 +95,7 @@ figcaption {
 .card h3 {
     margin-top: 0;
 }
+
 footer {
     background-color: var(--cor-rodape);
     color: var(--cor-clara);
@@ -98,6 +103,7 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
 button {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
@@ -116,5 +122,3 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
-
-
